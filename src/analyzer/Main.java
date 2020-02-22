@@ -4,16 +4,18 @@ import Analizador.Parser;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ingrese nombre del file");
+        String fileName = sc.nextLine();
 
-
-
-        File fileDir = new File("C:\\Users\\benav\\Documents\\Projects\\OLC\\src\\analyzer\\test.txt");
+        File fileDir = new File(fileName);//"C:\\Users\\benav\\Documents\\Projects\\OLC\\src\\analyzer\\test.txt");
 
         BufferedReader buf = null;
         try {

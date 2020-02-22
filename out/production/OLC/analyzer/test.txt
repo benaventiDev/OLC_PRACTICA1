@@ -11,7 +11,7 @@ Regulares
 ExpReg1 -> . {letra} * | "_" | {letra} {digito};
 RegEx2 -> . {digito} * | "_" | {letra} {digito};
 ExpReg3 -> . {digito} . "." + {digito};//10
-ExpReg1 -> . {letra} * | "_" | {letra} {digito};
+
 %%
 %%
 

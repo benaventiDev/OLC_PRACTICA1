@@ -37,7 +37,7 @@ public class Parser {
         }else{
             //TODO in case file is empty or there are not tokens.
         }
-
+/*
         sTable.print();
 
         System.out.println("Semantic Erros:");
@@ -53,7 +53,7 @@ public class Parser {
         while (im.hasNext()){
             Input in = im.next();
             checker.check(in.getRegularMatch(), in.getContent());
-        }
+        }*/
 
 
 
